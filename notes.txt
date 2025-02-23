@@ -1,0 +1,6 @@
+1. top navbar (logo kiri, menu kanan)
+2. slider produk (deskripsi dan tombol learn more di tengah)
+3. deskripsi perusahaan singkat.
+4. beberapa produk (gambar di atas, deskripsi di bawah dan tombol learn more)
+5. partner
+6. footer

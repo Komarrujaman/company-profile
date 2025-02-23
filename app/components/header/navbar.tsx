@@ -15,8 +15,8 @@ export default function Navbar() {
     { name: "Contact", href: "/contact" },
   ];
   return (
-    <NavigationMenu.Root className="hidden md:flex space-x-6 text-lg font-bold">
-      <NavigationMenu.List className="flex space-x-6">
+    <NavigationMenu.Root className="hidden md:flex space-x-2 text-lg font-bold mr-6">
+      <NavigationMenu.List className="flex space-x-2">
         {menuItems.map((item) => (
           <NavigationMenu.Item key={item.href}>
             <Link

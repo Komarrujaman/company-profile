@@ -27,7 +27,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
         <Dialog.Overlay className={`fixed inset-0 bg-black/50 transition-opacity duration-700 ${isOpen ? "opacity-100" : "opacity-0"}`} />
 
         {/* Sidebar dengan efek smooth */}
-        <Dialog.Content className={`fixed top-0 right-0 h-full w-64 bg-primary p-4 shadow-lg transform transition-transform duration-700 ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
+        <Dialog.Content className={`fixed top-0 right-0 h-full z-20 w-52 bg-primary p-4 shadow-lg transform transition-transform duration-700 ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
           {/* Aksesibilitas untuk Screen Reader */}
           <Dialog.Title asChild>
             <VisuallyHidden>Navigation Menu</VisuallyHidden>

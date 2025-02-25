@@ -9,11 +9,11 @@ import partners from "../lib/partners";
 
 export default function HomePartners() {
   return (
-    <div className="bg-primary py-10">
+    <div className="bg-white py-10">
       <div className="w-full px-5">
         {/* Title */}
         <div className="flex justify-center items-center mb-5">
-          <h1 className="text-3xl font-bold pb-2 border-b-4 border-b-black text-black">Who Using Our Service?</h1>
+          <h1 className="text-3xl font-bold pb-2 border-b-4 border-b-primary text-black">Who Using Our Service?</h1>
         </div>
 
         {/* Carousel */}
@@ -32,7 +32,7 @@ export default function HomePartners() {
         >
           {partners.partners.map((partner, index) => (
             <SwiperSlide key={index}>
-              <div className="group relative flex items-center justify-center p-4 border border-gray-200 rounded-lg bg-white shadow-lg cursor-pointer transition-all duration-300 hover:shadow-xl">
+              <div className="group relative flex items-center justify-center p-4 border border-gray-200 rounded-lg bg-primary shadow-lg cursor-pointer transition-all duration-300 hover:shadow-xl">
                 {/* Logo */}
                 <Image src={partner.logo} alt={partner.title} width={100} height={100} className="object-contain w-20 h-20 transition-transform duration-300 group-hover:scale-110" />
               </div>
